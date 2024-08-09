@@ -19,3 +19,4 @@ Some code i've worked on so far at Northeastern University as a Computer Science
 
 **Minesweeper:** This was one of our course projects which we worked on towards the end of the semester. It's a fully functional version of the original Minesweeper game, with the ability to flag cells, the "flood fill" effect that reveals all non-bombed cells around a selected blank cells, etc. In addition, I also implemented the ability to choose difficulty levels (with each level changing the number of mines and the dimensions of the minesweeper grid).
 
+**Huffman Algorithm:** This program implemented the Huffman prefix coding algorithm on data trees.
