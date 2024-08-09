@@ -1,7 +1,7 @@
 # NEU-Projects
 Some code i've worked on so far at Northeastern University as a Computer Science Major :D
 
-*The following programs were coded in DrRacket during my first semester as a student in the accelerated section of Fundamentals of Computer Science I (CS 2500), and I used the languages isl+ and asl.*
+*The following programs are some of the projects that I coded in DrRacket during my first semester as a student in the accelerated section of Fundamentals of Computer Science I (CS 2500), and I used the languages isl+ and asl.*
 
 **Shannon_Game:** This was the course project which we developed throughout the semester. It is a game that allows a user to look at a digital circuit with some pre-existing input and output gates and prompts it to input some components of a grid (i.e. a conductive plate, a logical gate or an empty cell), which triggers a visual representation of the propogation of positive and/or negative charge in the circuit according to the components the user has inputted. The goal is to see of their version of the grid can match a set of 'goals', i.e. the given starting charges of the input gates should become the expected output charge by end of the propogation of charge. For the time being, all of these things are hard coded and nothing is user prompted unless the code is modified.
 
@@ -15,8 +15,10 @@ Some code i've worked on so far at Northeastern University as a Computer Science
 
 **StateLang Implementation:** A subset of Advanced Student Language in DrRacket, StateLang is a lang we created in class that has the same functionality as ASL but was implemented by us in isl+. It consists of functions, numbers, variable mutation, and box mutation. This program implements concepts like stores/memory, locations, boxes, and threading state through evaluation.
 
-*The following programs were coded in Java during my second semester as a student in Fundamentals of Computer Science II (CS 2510).*
+*The following programs are some of the projects that I coded in Java during my second semester as a student in Fundamentals of Computer Science II (CS 2510).*
 
-**Minesweeper:** This was one of our course projects which we worked on towards the end of the semester. It's a fully functional version of the original Minesweeper game, with the ability to flag cells, the "flood fill" effect that reveals all non-bombed cells around a selected blank cells, etc. In addition, I also implemented the ability to choose difficulty levels (with each level changing the number of mines and the dimensions of the minesweeper grid).
+**Minesweeper:** This was one of our course projects which we worked on during the semester. It's a fully functional version of the original Minesweeper game, with the ability to flag cells, the "flood fill" effect that reveals all non-bombed cells around a selected blank cells, etc. In addition, I also implemented the ability to choose difficulty levels (with each level changing the number of mines and the dimensions of the minesweeper grid).
 
 **Huffman Algorithm:** This program implemented the Huffman prefix coding algorithm on data trees.
+
+**ZType:** ZType is the other course project we worked on during the semester. It is a fun and educational typing game where you shoot down enemy spaceships by typing the words that appear on them (in my game however, the program generates random strings of characters rather than pre-defined words). As you type each letter of the word correctly, your spaceship fires at the enemies. The faster and more accurately you type, the quicker you destroy the ships. It's a great way to improve your typing speed while enjoying a space-shooter game! I implemented features like some basic fun graphics, a scoreboard to track the number of words you've successfully typed, the ability to restart the game, and words that have random variable lengths to make the game more interesting.
