@@ -22,3 +22,8 @@ Some code i've worked on so far at Northeastern University as a Computer Science
 **Huffman Algorithm:** This program implemented the Huffman prefix coding algorithm on data trees.
 
 **ZType:** ZType is the other course project we worked on during the semester. It is a fun and educational typing game where you shoot down enemy spaceships by typing the words that appear on them (in my game however, the program generates random strings of characters rather than pre-defined words). As you type each letter of the word correctly, your spaceship fires at the enemies. The faster and more accurately you type, the quicker you destroy the ships. It's a great way to improve your typing speed while enjoying a space-shooter game! I implemented features like some basic fun graphics, a scoreboard to track the number of words you've successfully typed, the ability to restart the game, and words that have random variable lengths to make the game more interesting.
+
+*The following programs is/are project(s) that I coded in Java during my third semester as a student in Object Oriented Design (CS 3500).*
+
+
+**Solo Red: ** This was my course project for the semester. Solo Red is a solitaire-style card game inspired by Red7, which follows a structured set of rules based on colors, numbers, and winning conditions. In the game, the player must continuously modify their hand and canvas (the cards they have played) to ensure they are always winning according to the active game rule.
