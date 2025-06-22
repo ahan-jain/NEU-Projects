@@ -1,4 +1,6 @@
-OVERVIEW:
+#Three Trios
+
+##OVERVIEW:
 
 The Three Trios game is a turn-based strategy game where two players (RED and BLUE) compete to
 place cards on a grid, flip their opponent’s cards, and ultimately control the majority of the grid.
@@ -10,7 +12,7 @@ card interactions, turn-based player mechanics, and card flipping logic. It prov
 model structure to simulate the game and manage game state, grid, and player actions.
 
 ----------------------------------------------------------------------------------------------------
-ASSUMPTIONS AND PREREQUISITES:
+##ASSUMPTIONS AND PREREQUISITES:
 
 Assumptions: Players are familiar with the concept of turn-based strategy games and grid-based
 systems.
@@ -24,7 +26,7 @@ Extensibility: The code is built in a modular manner, allowing for extensions li
 types, different grid sizes, or additional game rules.
 
 ----------------------------------------------------------------------------------------------------
-QUICK START
+##QUICK START
 
 Here is a simple example of how to instantiate and start a game of Three Trios:
 
@@ -49,7 +51,7 @@ The first card from the RED player’s hand is placed at grid position (1,1).
 The game checks for the winner once all cells are filled.
 
 ----------------------------------------------------------------------------------------------------
-KEY COMPONENTS
+##KEY COMPONENTS
 
 1. Model
 The ThreeTriosModel class is the main driver of the game mechanics. It handles the logic for:
@@ -79,7 +81,7 @@ The Player.java class represents the two players in the game: RED and BLUE. Each
 own hand of cards, and the game alternates between them on each turn.
 
 ----------------------------------------------------------------------------------------------------
-KEY SUBCOMPONENTS
+##KEY SUBCOMPONENTS
 
 1. CardCell.java & Hole.java
 CardCell: A cell on the grid that can hold a card.
@@ -98,7 +100,7 @@ Handles grid management, including populating the grid from the configuration fi
 valid placements, and interacting with the cards.
 
 ----------------------------------------------------------------------------------------------------
-SOURCE ORGANIZATION
+##SOURCE ORGANIZATION
 src/cs3500/model Directory: Contains all model-related files, including the game grid, cards,
 cells, and player logic.
 
@@ -143,7 +145,7 @@ implementation.TTCellTest.java: Tests for the individual cells on the grid, part
 
 GridTests.java: Tests for the grid structure and cell placements.
 ----------------------------------------------------------------------------------------------------
-GRID CONFIGURATION AND CARD CONFIGURATION
+##GRID CONFIGURATION AND CARD CONFIGURATION
 The game is initialized with a configuration file that describes the layout of the grid.
 This file specifies:
 
@@ -165,7 +167,7 @@ NightStalker 9 9 9 9
 SkyWarden 8 A 1 2
 FrostBite A 8 6 4
 ---------------------------------------------------------------------------------------------------
-CHANGES FOR PART 2:
+##CHANGES FOR PART 2:
 - Added getters for the rows and columns of the grid, as this was very useful for the setup of
   the view.
 - We added methods getContentsAt(row, col) and getPlayerAt(row, col), which return the contents
@@ -177,7 +179,7 @@ CHANGES FOR PART 2:
   position. This was useful in determining the best move for the AI player.
 - Improved Javadoc for clarity and info
 ---------------------------------------------------------------------------------------------------
-NEW CLASSES FOR PART 2:
+##NEW CLASSES FOR PART 2:
 - AIPlayer.java: This class represents an AI player that can play the game. It implements the
   AIPlayerStrategy interface to determine the best move based on the current game state.
 - TTGUIView: The interface for our GUI view, holding a method to update the view before displaying.
@@ -191,7 +193,7 @@ NEW CLASSES FOR PART 2:
 - TTMouseListener: A mouse listener for this class that handles highlighting and printing the row
   and column of each selected cell.
 ---------------------------------------------------------------------------------------------------
-CHANGES FOR PART 3:
+##CHANGES FOR PART 3:
 - AbstractController.java: Holds the common behaviors between the Human and AI controllers to
   minimize code duplication.
 - HumanController.java: Represents a human player controller that interacts with the game model
